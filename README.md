@@ -15,50 +15,50 @@
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white">
 </p>
 
-<p align="center">Browse the whole set: <b><a href="https://github.com/stars/mr-wolf-rsh/lists/cs50w/">Projects for CS50W</a></b></p>
-
 ---
 
 ## 🔎 Search
 `HTML` `CSS` `JavaScript`
 
-A front-end for Google Search, Google Image Search, and Google Advanced Search — three hand-built
-pages, each with its own stylesheet, with forms driven by query parameters.
+A front-end for Google Search, Google Image Search, and Google Advanced Search. Three hand-built
+pages — text, image, and advanced — each with its own stylesheet, where the form sends the query
+as URL parameters and opens the results in Google itself.
 
-**[Code](https://github.com/mr-wolf-rsh/cs50w-search)** · **[Spec](https://cs50.harvard.edu/web/2020/projects/0/search/)**
+**[Code](https://github.com/mr-wolf-rsh/cs50w-search)** · **[Spec](https://cs50.harvard.edu/web/projects/0/search/)** · **[▶ Demo](https://youtu.be/as8lFGnDHr4/)**
 
 ## 📚 Wiki
 `Python` `Django`
 
-A Wikipedia-like encyclopedia: entry pages, search, create and edit, and a random-page view.
-Entries are rendered from Markdown (`markdown2`).
+A Wikipedia-like encyclopedia on Django: entry pages rendered from Markdown, search across titles
+and content, create and edit forms, and a random-page button for the curious.
 
-**[Code](https://github.com/mr-wolf-rsh/cs50w-wiki)** · **[Spec](https://cs50.harvard.edu/web/2020/projects/1/wiki/)**
+**[Code](https://github.com/mr-wolf-rsh/cs50w-wiki)** · **[Spec](https://cs50.harvard.edu/web/projects/1/wiki/)** · **[▶ Demo](https://youtu.be/BgMmqo4kXQQ/)**
 
 ## 🛒 Commerce
 `Python` `Django` `SQL`
 
-An eBay-like auction site on Django models (`Listing`, `ListingState`, `Bid`, `Comment`) with
-authentication: all and my listings, listing pages with highest-bid tracking, a watchlist, bids,
-and comments.
+An eBay-style auction site on Django models (`Listing`, `ListingState`, `Bid`, `Comment`) with full
+authentication. Organizers post listings; visitors bid, comment, and build a watchlist, and every
+listing page tracks the current highest bid.
 
-**[Code](https://github.com/mr-wolf-rsh/cs50w-commerce)** · **[Spec](https://cs50.harvard.edu/web/2020/projects/2/commerce/)**
+**[Code](https://github.com/mr-wolf-rsh/cs50w-commerce)** · **[Spec](https://cs50.harvard.edu/web/projects/2/commerce/)** · **[▶ Demo](https://youtu.be/4Ko1P9H3B3k/)**
 
 ## ✉️ Mail
 `Python` `Django` `JavaScript`
 
-An email client front-end backed by JSON endpoints (`emails`, `emails/<id>`, `emails/<mailbox>`,
-`recipients`, `user`): compose, mailbox views, and email detail.
+A single-page email client whose front-end talks to JSON endpoints (`emails`, `emails/<id>`,
+`emails/<mailbox>`, `recipients`, `user`) instead of reloading pages — compose, browse mailboxes,
+and open individual emails without a full refresh.
 
-**[Code](https://github.com/mr-wolf-rsh/cs50w-mail)** · **[Spec](https://cs50.harvard.edu/web/2020/projects/3/mail/)**
+**[Code](https://github.com/mr-wolf-rsh/cs50w-mail)** · **[Spec](https://cs50.harvard.edu/web/projects/3/mail/)** · **[▶ Demo](https://youtu.be/l59l3fkW4Mk/)**
 
 ## 🌐 Network
 `Python` `Django` `JavaScript`
 
-A Threads-like social network: post creation, a paginated feed, profiles, and follower/following
-lists.
+A Threads-like social network where users post, follow each other, and browse a paginated feed —
+with profile pages, follower/following lists, and an authenticated API under the hood.
 
-**[Code](https://github.com/mr-wolf-rsh/cs50w-network)** · **[Spec](https://cs50.harvard.edu/web/2020/projects/4/network/)**
+**[Code](https://github.com/mr-wolf-rsh/cs50w-network)** · **[Spec](https://cs50.harvard.edu/web/projects/4/network/)** · **[▶ Demo](https://youtu.be/mj8vEnJ3k8w/)**
 
 ## 🗳️ Capstone — Voter Aid
 `Django` `React` `PostgreSQL` `Docker`
@@ -72,10 +72,14 @@ promises, political ideology, interest compatibility, ratings, and weekly polls 
 - Data: PostgreSQL + pgAdmin, 20+ related Django models, auto-seeded from JSON at startup,
   hashed passwords.
 
-**[Code](https://github.com/mr-wolf-rsh/cs50w-capstone)** · **[▶ Demo](https://youtu.be/25ysHddm28Q)**
+**[Code](https://github.com/mr-wolf-rsh/cs50w-capstone)** · **[Spec](https://cs50.harvard.edu/web/projects/final/capstone/)** · **[▶ Demo](https://youtu.be/25ysHddm28Q)**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mr-wolf-rsh/cs50w-capstone/main/voter_aid.gif" alt="Voter Aid demo" width="400">
+</p>
 
 ---
 
-<p align="center"><i>All six are complete and archived on GitHub — the set is finished, not active work.</i></p>
+<p align="center"><i>All six are complete and archived on GitHub.</i></p>
 
 <p align="center">Built by <a href="https://github.com/mr-wolf-rsh">Renzo S.</a> · Licensed under <a href="LICENSE">GPL-3.0</a></p>
