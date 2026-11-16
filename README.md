@@ -1,43 +1,29 @@
-# 🎓 CS50W — Project Set
+# 🎓 CS50W — Projects
 
-The six projects of [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/) (CS50W), Harvard University — kept together as a finished portfolio set.
+Six projects from [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/),
+each built as its own repository. This is the index for the set.
 
-> *This course picks up where CS50x leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.* — official course description
+## The projects
 
-## The course
-
-- **Institution:** Harvard University (HarvardX, on edX)
-- **Length:** 12 weeks · 6–9 hours/week · self-paced · English
-- **Level:** Intermediate — prerequisite: CS50x or prior programming experience
-- **Cost:** free to audit · verified certificate $299
-- **Official pages:**
-  - https://cs50.harvard.edu/web/
-  - https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript
-  - https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript
-
-**Topics:** database design, scalability, security, and user experience. Through hands-on
-projects, the course covers writing and using APIs, building interactive UIs, and leveraging
-cloud services like GitHub and Heroku.
-
-**What you learn:** HTML, CSS · Git · Python · Django · SQL, models, and migrations ·
-JavaScript · React.
-
-## The set 📚
-
-| Project | Repository | Stack | Status |
+| Project | What it is | Stack | Repository |
 |---|---|---|---|
-| Search | [cs50w-search](https://github.com/mr-wolf-rsh/cs50w-search) | HTML / CSS / JS | ✅ |
-| Wiki | [cs50w-wiki](https://github.com/mr-wolf-rsh/cs50w-wiki) | Python / Django | ✅ |
-| Commerce | [cs50w-commerce](https://github.com/mr-wolf-rsh/cs50w-commerce) | Python / Django + SQL | ✅ |
-| Mail | [cs50w-mail](https://github.com/mr-wolf-rsh/cs50w-mail) | Python / Django + JS | ✅ |
-| Network | [cs50w-network](https://github.com/mr-wolf-rsh/cs50w-network) | Python / Django + JS | ✅ |
-| Capstone | [cs50w-capstone](https://github.com/mr-wolf-rsh/cs50w-capstone) | Django + React + PostgreSQL | ✅ |
+| Search | Front-end for Google Search, Image Search, and Advanced Search | HTML / CSS / JS | [cs50w-search](https://github.com/mr-wolf-rsh/cs50w-search) |
+| Wiki | A Wikipedia-like online encyclopedia | Python / Django | [cs50w-wiki](https://github.com/mr-wolf-rsh/cs50w-wiki) |
+| Commerce | eBay-like auction site: listings, bids, comments, watchlist | Python / Django + SQL | [cs50w-commerce](https://github.com/mr-wolf-rsh/cs50w-commerce) |
+| Mail | Email client front-end that calls an API to send and receive mail | Python / Django + JS | [cs50w-mail](https://github.com/mr-wolf-rsh/cs50w-mail) |
+| Network | Threads-like social network: posts and following | Python / Django + JS | [cs50w-network](https://github.com/mr-wolf-rsh/cs50w-network) |
+| Capstone — Voter Aid | Mobile-responsive voting aid app | Django + React + PostgreSQL | [cs50w-capstone](https://github.com/mr-wolf-rsh/cs50w-capstone) |
 
-The projects build up: plain HTML/CSS first, then Django, then models and SQL, then APIs and
-JavaScript, and finally a full Django + React + PostgreSQL capstone.
+All six are complete and **archived** on GitHub — the set is finished, not active work.
 
-All six repositories are **archived** on GitHub — the set is finished, not active work.
-Unarchive a repository before editing or pushing.
+## What each one shows
+
+- **Search** — forms, query parameters, and CSS layouts.
+- **Wiki** — Django routing, templates, Markdown rendering, and search.
+- **Commerce** — Django models, authentication, forms, and state changes (bids/auctions).
+- **Mail** — JavaScript, fetch/API calls, and single-page inbox behavior.
+- **Network** — pagination, follow graphs, and interactive UI with Django + JS.
+- **Capstone (Voter Aid)** — a full Django REST + React app; [demo video](https://youtu.be/25ysHddm28Q).
 
 ## License
 
