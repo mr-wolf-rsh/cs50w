@@ -73,7 +73,7 @@ promises, political ideology, interest compatibility, ratings, and weekly polls 
   hashed passwords.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mr-wolf-rsh/cs50w-capstone/main/voter_aid.gif" alt="Voter Aid demo" width="400">
+  <img src="voter_aid.gif" alt="Voter Aid demo" width="400">
 </p>
 
 **[Code](https://github.com/mr-wolf-rsh/cs50w-capstone)** · **[Spec](https://cs50.harvard.edu/web/projects/final/capstone/)** · **[▶ Demo](https://youtu.be/25ysHddm28Q)**
