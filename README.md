@@ -16,14 +16,41 @@ each built as its own repository. This is the index for the set.
 
 All six are complete and **archived** on GitHub — the set is finished, not active work.
 
-## What each one shows
+## Highlights
 
-- **Search** — forms, query parameters, and CSS layouts.
-- **Wiki** — Django routing, templates, Markdown rendering, and search.
-- **Commerce** — Django models, authentication, forms, and state changes (bids/auctions).
-- **Mail** — JavaScript, fetch/API calls, and single-page inbox behavior.
-- **Network** — pagination, follow graphs, and interactive UI with Django + JS.
-- **Capstone (Voter Aid)** — a full Django REST + React app; [demo video](https://youtu.be/25ysHddm28Q).
+### Search — HTML / CSS / JS
+Three hand-built pages — text, image, and advanced search — each with its own stylesheet,
+with forms driven by query parameters.
+
+### Wiki — Python / Django
+A Wikipedia-like encyclopedia: entry pages, search, create and edit, and a random-page view.
+Entries are rendered from **Markdown** (`markdown2`), with a small `util` layer for saving entries.
+
+### Commerce — Python / Django + SQL
+An auction site on Django models (`Listing`, `ListingState`, `Bid`, `Comment`) with
+authentication: all listings and my listings, listing pages with **highest-bid tracking**,
+a watchlist, bids, and comments.
+
+### Mail — Python / Django + JS
+An email client front-end backed by JSON endpoints (`emails`, `emails/<id>`, `emails/<mailbox>`,
+`recipients`, `user`): compose, mailbox views, and email detail, with login/logout.
+
+### Network — Python / Django + JS
+A Threads-like social network: post creation, a paginated feed (`_get_paginator`), profiles, and
+follower/following lists.
+
+### Capstone — Voter Aid — Django + React + PostgreSQL
+A mobile-responsive app where voters explore candidates and parties: background, campaign
+promises, political ideology, interest compatibility, ratings, and weekly polls with results.
+
+- **Docker** — three containers: backend, frontend, and database (`docker-compose` + a rebuild script).
+- **Backend** — Django + **Django REST Framework**, with Gunicorn, Pillow, and Whitenoise.
+- **Frontend** — React with **Material UI**, React Router, Redux Toolkit, Axios, and ApexCharts.
+- **Data** — PostgreSQL + pgAdmin; **20+ related Django models**; the database is auto-seeded from a
+  JSON file and media at startup; passwords are hashed.
+- **Detail** — custom user manager (email instead of username), custom renderer and exception
+  handler, Redux slices with async thunks, and custom hooks.
+- [Demo video](https://youtu.be/25ysHddm28Q)
 
 ## License
 
