@@ -66,17 +66,17 @@ with profile pages, follower/following lists, and an authenticated API under the
 A mobile-responsive app where voters explore candidates and parties: background, campaign
 promises, political ideology, interest compatibility, ratings, and weekly polls with results.
 
-- Dockerized into backend, frontend, and database containers.
-- Backend: Django + Django REST Framework (Gunicorn, Pillow, Whitenoise).
-- Frontend: React + Material UI, React Router, Redux Toolkit, Axios, ApexCharts.
-- Data: PostgreSQL + pgAdmin, 20+ related Django models, auto-seeded from JSON at startup,
+- **Docker:** backend, frontend, and database containers.
+- **Backend:** Django + Django REST Framework (Gunicorn, Pillow, Whitenoise).
+- **Frontend:** React + Material UI, React Router, Redux Toolkit, Axios, ApexCharts.
+- **Data:** PostgreSQL + pgAdmin, 20+ related Django models, auto-seeded from JSON at startup,
   hashed passwords.
-
-**[Code](https://github.com/mr-wolf-rsh/cs50w-capstone)** · **[Spec](https://cs50.harvard.edu/web/projects/final/capstone/)** · **[▶ Demo](https://youtu.be/25ysHddm28Q)**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/mr-wolf-rsh/cs50w-capstone/main/voter_aid.gif" alt="Voter Aid demo" width="400">
 </p>
+
+**[Code](https://github.com/mr-wolf-rsh/cs50w-capstone)** · **[Spec](https://cs50.harvard.edu/web/projects/final/capstone/)** · **[▶ Demo](https://youtu.be/25ysHddm28Q)**
 
 ---
 
