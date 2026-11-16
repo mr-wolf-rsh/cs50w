@@ -1,12 +1,26 @@
 # 🎓 CS50W — Project Set
 
-**One course. Six projects. One set of web apps.**
+The six projects of [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/) (CS50W), Harvard University — kept together as a finished portfolio set.
 
-The projects of CS50's Web Programming with Python and JavaScript, kept together as a portfolio
-set: one course, six separate repositories, each with its own stack and instructions.
+> *This course picks up where CS50x leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.* — official course description
 
-This repository is the **index** — it lists the set, the shared context, and the course map.
-Each project plays at its own table, with its own README, build, and run commands.
+## The course
+
+- **Institution:** Harvard University (HarvardX, on edX)
+- **Length:** 12 weeks · 6–9 hours/week · self-paced · English
+- **Level:** Intermediate — prerequisite: CS50x or prior programming experience
+- **Cost:** free to audit · verified certificate $299
+- **Official pages:**
+  - https://cs50.harvard.edu/web/
+  - https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript
+  - https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript
+
+**Topics:** database design, scalability, security, and user experience. Through hands-on
+projects, the course covers writing and using APIs, building interactive UIs, and leveraging
+cloud services like GitHub and Heroku.
+
+**What you learn:** HTML, CSS · Git · Python · Django · SQL, models, and migrations ·
+JavaScript · React.
 
 ## The set 📚
 
@@ -14,30 +28,16 @@ Each project plays at its own table, with its own README, build, and run command
 |---|---|---|---|
 | Search | [cs50w-search](https://github.com/mr-wolf-rsh/cs50w-search) | HTML / CSS / JS | ✅ |
 | Wiki | [cs50w-wiki](https://github.com/mr-wolf-rsh/cs50w-wiki) | Python / Django | ✅ |
-| Commerce | [cs50w-commerce](https://github.com/mr-wolf-rsh/cs50w-commerce) | Python / Django | ✅ |
+| Commerce | [cs50w-commerce](https://github.com/mr-wolf-rsh/cs50w-commerce) | Python / Django + SQL | ✅ |
 | Mail | [cs50w-mail](https://github.com/mr-wolf-rsh/cs50w-mail) | Python / Django + JS | ✅ |
 | Network | [cs50w-network](https://github.com/mr-wolf-rsh/cs50w-network) | Python / Django + JS | ✅ |
 | Capstone | [cs50w-capstone](https://github.com/mr-wolf-rsh/cs50w-capstone) | Django + React + PostgreSQL | ✅ |
 
-All six are **archived** on GitHub (read-only) — this is a portfolio set, not active work.
+The projects build up: plain HTML/CSS first, then Django, then models and SQL, then APIs and
+JavaScript, and finally a full Django + React + PostgreSQL capstone.
+
+All six repositories are **archived** on GitHub — the set is finished, not active work.
 Unarchive a repository before editing or pushing.
-
-## The course map
-
-```
-Search ──▶ Wiki ──▶ Commerce ──▶ Mail ──▶ Network ──▶ Capstone
-HTML/CSS   Django    models/auth    APIs     Django+JS   Django+React
-```
-
-The projects build up: plain HTML/CSS/JS first, then Django fundamentals, then models and
-authentication, then APIs and JavaScript, then a full Django + JS app, and finally the capstone.
-
-## How the set fits together
-
-- **This repo (the index)** — the set, the course map, and the shared context in [`spec.md`](spec.md).
-- **Each project (its own repo)** — the implementation plus its own README and commands.
-- **Archived by design** — the set is finished; repos stay read-only until deliberately reopened.
-- **One course, distinct stacks** — no mixed codebase; each project stands on its own.
 
 ## License
 
